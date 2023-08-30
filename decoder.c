@@ -3,7 +3,7 @@
 
 #include "decoder.h"
 
-#ifdef HAVE_LIBARIBB25
+#ifdef HAVE_LIBARIB25
 
 unsigned char *_data;
 

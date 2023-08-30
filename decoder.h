@@ -6,11 +6,11 @@
 #include <string.h>
 #include "config.h"
 
-#ifdef HAVE_LIBARIBB25
+#ifdef HAVE_LIBARIB25
 
-#include <aribb25/arib_std_b25.h>
-#include <aribb25/arib_std_b25_error_code.h>
-#include <aribb25/b_cas_card.h>
+#include <arib25/arib_std_b25.h>
+#include <arib25/arib_std_b25_error_code.h>
+#include <arib25/b_cas_card.h>
 
 typedef struct _decoder {
     ARIB_STD_B25 *b25;
