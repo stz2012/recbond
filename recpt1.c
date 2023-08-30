@@ -273,7 +273,7 @@ reader_func(void *p)
 	BUFSZ *qbuf;
 	static splitbuf_t splitbuf;
 	ARIB_STD_B25_BUFFER sbuf, buf;
-#ifdef HAVE_LIBARIBB25
+#ifdef HAVE_LIBARIB25
 	ARIB_STD_B25_BUFFER dbuf;
 #endif
 	int code;
@@ -496,7 +496,7 @@ reader_func(void *p)
 void
 show_usage(char *cmd)
 {
-#ifdef HAVE_LIBARIBB25
+#ifdef HAVE_LIBARIB25
 	fprintf(stderr, "Usage: \n%s [--b25 [--strip] [--emm] [--round N]] [--udp [--addr hostname --port portnumber]] [--http portnumber] [--driver drivername] [--space spacenumber] [--sid SID1,SID2] channel rectime destfile\n", cmd);
 #else
 	fprintf(stderr, "Usage: \n%s [--udp [--addr hostname --port portnumber]] [--driver drivername] [--space spacenumber] [--sid SID1,SID2] channel rectime destfile\n", cmd);
