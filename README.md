@@ -1,6 +1,6 @@
 --- recbond ---
 
-これは、recpt1(http://hg.honeyplanet.jp/pt1/)+httpサーバパッチをベースにした
+これは、recpt1(http://hg.honeyplanet.jp/pt1/) + httpサーバパッチをベースにした
 Linux用BonDriver録画コマンドです。
 今までのソフト資産を生かしつつLinuxだけで完結する環境下での運用を想定しています。
 
@@ -62,9 +62,6 @@ BonDriver_Proxy(クライアント)を利用する場合は、短縮指定時に
 最新の履歴はGitHubを参照してください。
 version 1.1.0 (2016/04/14)
 	・チャンネル定義をrecbond.confから読み込むように変更
-
-version 1.0.2 (2015/11/28)
-	・b25->putがエラーになった場合のwithdraw処理を追加
 
 version 1.0.1 (2015/04/04)
 	・BS難視聴対策チャンネルを整理
